@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="index.css" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        <script src="index.js" ></script>
+    </head>
+    <body>
+
+        <div class="container">
+            <header>
+                <h1>Ma tache du jour</h1>
+                <div class="input-section">
+                    <input id="todo-input" type="text" placeholder="⏲ ajoutez votre tache"
+                           class="input w-full max-w-xs" />
+                    <button id="add-button" class="btn btn-add ">
+                        <i class="bx bx-plus bx-sm"></i>
+                    </button>
+                </div>
+            </header>
+    
+            <div class="todos-filter">
+                <button id="delete-selected" class="btn btn-ghost delete-selected-btn">
+                  Supprimer la tache finis </button>
+                <button id="delete-all" class="btn btn-ghost delete-all-btn">
+                  Tout supprimer </button>
+            </div>
+    
+            <ul id="all-todos" class="todos-list"></ul>
+
+            <div class="filters">
+                <div class="dropdown">
+                    <button class="dropbtn">Filtrer</button>
+                    <div class="dropdown-content">
+                        <a href="#" id="all">Tout</a>
+                        <a href="#" id="rem">En cours</a>
+                        <a href="#" id="com">Terminé</a>
+                    </div>
+                </div>
+    
+                <div class="completed-task">
+                    <p>Terminé :  <span id="c-count">0</span></p>
+                </div>
+                <div class="remaining-task">
+                    <p>Toute les taches :  <span id="r-count">0</span></p>
+                </div>
+            </div>
+        </div>
+        
+        <script src="index.js" ></script>
+    </body>
+</html>
