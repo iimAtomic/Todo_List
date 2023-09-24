@@ -1,2 +1,1 @@
-
-![New Website Blue Mockup Instagram - Laptop (1)](https://github.com/iimAtomic/Todo_List/assets/71674056/7ebf040b-7359-410b-a35c-52b7b6b71268)
+![todolist_](https://github.com/iimAtomic/Todo_List/assets/71674056/9a6e0903-ca3c-421f-9c9a-d6b290d7efb9)
